@@ -1,6 +1,6 @@
 # Pipeworx Gemini CLI Extension
 
-Connect Gemini CLI to live data from **2,617 tools across 589 packs** — SEC filings, USPTO patents, FRED economic data, FDA drug data, Census, EPA, ATTOM real estate, weather, and 581+ more.
+Connect Gemini CLI to live data from **2,761 tools across 605 packs** — SEC filings, USPTO patents, FRED economic data, FDA drug data, Census, EPA, ATTOM real estate, weather, and 597+ more.
 
 Backed by the [Pipeworx](https://pipeworx.io) MCP gateway at `gateway.pipeworx.io`.
 
@@ -12,7 +12,7 @@ gemini extensions install https://github.com/pipeworx-io/gemini-cli-extension
 
 ## How it works
 
-Gemini CLI loads **17 meta-tools** from the Pipeworx gateway — not all 2,617 underlying tools. That's deliberate: dumping every tool definition into the context window burns tokens you'll never use.
+Gemini CLI loads **17 meta-tools** from the Pipeworx gateway — not all 2,761 underlying tools. That's deliberate: dumping every tool definition into the context window burns tokens you'll never use.
 
 Instead, Gemini reaches for `ask_pipeworx` or `discover_tools` and the gateway routes the request to the right pack at session time. You get the full catalog without paying for it up front.
 
