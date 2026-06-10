@@ -29,7 +29,7 @@ The extension exposes **~26 meta-tools**, not all 3,300+ — `ask_pipeworx({ques
 
 ## Free tier + signup
 
-100 calls/day anonymous, IP-bound. [Sign up free in 10s via GitHub](https://pipeworx.io/signup?via=gemini_plugin) for 2,000/day + a stable account.
+100 calls/day anonymous, IP-bound. [Sign up free in 10s via GitHub](https://pipeworx.io/signup?via=gemini_plugin) for 200/day + a stable account.
 
 ## Verify after install
 
@@ -70,7 +70,7 @@ Or a vertical bundle (e.g., `?vertical=housing` for the housing-data stack).
 
 ## Bring your own key
 
-For BYO-tier limits (500/day) or your own per-tool API keys, add an `X-API-Key` header to the `pipeworx` server block:
+For BYO-tier limits (200/day) or your own per-tool API keys, add an `X-API-Key` header to the `pipeworx` server block:
 
 ```json
 {
