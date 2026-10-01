@@ -1,7 +1,7 @@
 {
   "name": "pipeworx",
   "version": "0.2.4",
-  "description": "Connect Gemini CLI to 5,581+ live data tools across 1,463+ packs (SEC, FDA, FRED, Census, EPA, USPTO patents, weather, real estate, and more) via the Pipeworx MCP gateway.",
+  "description": "Connect Gemini CLI to 6,453+ live data tools across 1,682+ packs (SEC, FDA, FRED, Census, EPA, USPTO patents, weather, real estate, and more) via the Pipeworx MCP gateway.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "pipeworx": {
